@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chartis : Step out with Confidence"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Safety Maps Application!!"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/reviewicon"
+        android:src="@drawable/review"/>
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/location"
+        android:layout_toRightOf="@id/reviewicon"/>
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/details2" />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/incident3"
+        android:layout_alignParentRight="true"/>
+
+
+    <Button
+        android:id="@+id/showReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="330dp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+    <Button
+        android:id="@+id/showMapsButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/purple_200"
+        android:text="Search Location"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/showIndexButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="30dp"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+
+    <Button
+        android:id="@+id/saveIncident"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Incident"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/white"
+        style="?android:attr/buttonBarButtonStyle" />
+
+
+
+</RelativeLayout>

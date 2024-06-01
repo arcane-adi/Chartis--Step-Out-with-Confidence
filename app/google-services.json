@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "87527623280",
+    "project_id": "mapty-1e31c",
+    "storage_bucket": "mapty-1e31c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87527623280:android:f04aea4b821ce97ba002b5",
+        "android_client_info": {
+          "package_name": "com.example.maptyxf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT_WndvuCO-tvYQtq9QrR46kNo25u6uvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
